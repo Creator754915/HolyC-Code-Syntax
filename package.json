@@ -3,7 +3,7 @@
   "displayName": "HolyC Code Syntax",
   "description": "Code HolyC more quieckly with a the syntax of the language",
   "icon": "images/HolyC_Logo.png",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "engines": {
     "vscode": "^1.95.0"
   },
@@ -11,6 +11,10 @@
     "Programming Languages"
   ],
   "contributes": {
+    "snippets": [{
+      "language": "holyc",
+      "path": "./snippets/holyc-snippets.json"
+    }],
     "themes": [{
       "label": "HolyC Theme",
       "uiTheme": "vs-dark", 
