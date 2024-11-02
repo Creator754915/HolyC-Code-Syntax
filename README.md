@@ -46,9 +46,10 @@ Just know how to code HolyC ;)
 
 ## How add the extension ?
 
-Go to **Extension>Install from VSIX** and select the *holyc-code-syntax
+Go to **Extension>Install from VSIX** and select the **holyc-code-syntax-1.0.0** (depend of the version of the extension)
 
-And after, enjoy it
+After, the extension is now in your Visual Studio Code !
+
 
 ## Release Notes
 
