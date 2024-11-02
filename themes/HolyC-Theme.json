@@ -12,9 +12,15 @@
         }
       },
       {
-        "scope": "import.holyc",
+        "scope": "include.holyc",
         "settings": {
           "foreground": "#995399"
+        }
+      },
+      {
+        "scope": "void.function.holyc",
+        "settings": {
+          "foreground": "#1111b0"
         }
       },
       {
