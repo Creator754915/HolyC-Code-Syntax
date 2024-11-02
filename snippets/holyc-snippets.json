@@ -1,4 +1,15 @@
 {
+    "Start HolyC": {
+        "prefix": "startHC",
+        "body": [
+            "U0 main() {",
+            "   \"Hello World\\n\";",
+            "}",
+            "",
+            "main;"
+        ],
+        "description": "Starts the HolyC compiler"
+    },
     "Define Macro": {
         "prefix": "define",
         "body": [
