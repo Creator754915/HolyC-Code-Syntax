@@ -17,6 +17,20 @@ Welcome to HolyC Code Syntax, code HolyC more faster and more simply
 
 How look like the Code Syntax in Visual Studio Code
 
+## Snippets customs
+
+**Total snippets: 13**
+
+> Create a simple main project for HolyC
+
+![Main Snippets](https://github.com/Creator754915/HolyC-Code-Syntax/blob/main/images/snippets2.gif)
+
+> Convert a char or a string to a upper string
+
+![ToUpper](https://github.com/Creator754915/HolyC-Code-Syntax/blob/main/images/snippets1.gif)
+
+## Theme and UI
+
 ### Game.hc
 
 ![Image1](https://github.com/Creator754915/HolyC-Code-Syntax/blob/main/images/image.png)
@@ -32,6 +46,11 @@ Just know how to code HolyC ;)
 
 ## Release Notes
 
+### 1.0.1
+
+> New snippets (total 13)
+
+> **#include, union, public, static** add to the syntax
 
 ### 1.0.0
 
