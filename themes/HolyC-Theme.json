@@ -1,0 +1,94 @@
+{
+    "name": "HolyC Theme",
+    "type": "dark",  
+    "colors": {
+      
+    },
+    "tokenColors": [
+      {
+        "scope": "define.holyc",
+        "settings": {
+          "foreground": "#995399"
+        }
+      },
+      {
+        "scope": "import.holyc",
+        "settings": {
+          "foreground": "#995399"
+        }
+      },
+      {
+        "scope": "unit.type.u.holyc",
+        "settings": {
+          "foreground": "#1111b0"
+        }
+      },
+      {
+        "scope": "unit.type.i.holyc",
+        "settings": {
+            "foreground": "#569cd6"
+        }
+      },
+      {
+        "scope": "function.type.include.holyc",
+        "settings": {
+            "foreground": "#d487d4"
+        }
+      },
+      {
+        "scope": "function.sprite.holyc",
+        "settings": {
+          "foreground": "#d487d4"
+        }
+      },
+      {
+        "scope": "color.name.holyc",
+        "settings": {
+            "foreground": "#569cd6"
+        }
+      },
+      {
+        "scope": "variable.type.bool.holyc",
+        "settings": {
+            "foreground": "#569cd6"
+        }
+      },
+      {
+        "scope": "keyword.control.holyc",
+        "settings": {
+          "foreground": "#1111b0"
+        }
+      },
+      {
+        "scope": "constant.numeric.holyc",
+        "settings": {
+          "foreground": "#b5cea8"
+        }
+      },
+      {
+        "scope": "comment.line.double-slash.holyc",
+        "settings": {
+          "foreground": "#6a9955"  
+        }
+      },
+      {
+        "scope": "comment.block.holyc",
+        "settings": {
+          "foreground": "#6a9955" 
+        }
+      },
+      {
+        "scope": "string.quoted.double.holyc",
+        "settings": {
+          "foreground": "#a85700"
+        }
+      },
+      {
+        "scope": "variable.type.holyc",
+        "settings": {
+          "foreground": "#9CDCFE"
+        }
+      }
+    ]
+  }
+  

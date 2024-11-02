@@ -1,0 +1,31 @@
+{
+  "name": "holyc-code-syntax",
+  "displayName": "HolyC Code Syntax",
+  "description": "Code HolyC more quieckly with a the syntax of the language",
+  "icon": "images/HolyC_Logo.png",
+  "version": "1.0.0",
+  "engines": {
+    "vscode": "^1.95.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "themes": [{
+      "label": "HolyC Theme",
+      "uiTheme": "vs-dark", 
+      "path": "./themes/HolyC-Theme.json"
+    }],
+    "languages": [{
+      "id": "holyc",
+      "aliases": ["HolyC", "holyc"],
+      "extensions": [".hc", "HC", "holyc", ".HolyC"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "holyc",
+      "scopeName": "source.hc",
+      "path": "./syntaxes/holyc.tmLanguage.json"
+    }]
+  }
+}
