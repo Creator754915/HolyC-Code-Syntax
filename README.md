@@ -1,3 +1,14 @@
+<p align="center">
+  <img src="https://github.com/Creator754915/HolyC-Code-Syntax/blob/main/images/HolyC_Logo.png">
+  <br>
+  <img src="https://img.shields.io/badge/Version-1.0.0-green?style=for-the-badge">
+  <br>
+  <img src="https://img.shields.io/badge/Author-Creator754915-blue?style=flat-square">
+  <img src="https://img.shields.io/badge/Open%20Source-Yes-darkgreen?style=flat-square">
+  <img src="https://img.shields.io/badge/Maintained%3F-Yes-lightblue?style=flat-square">
+</p>
+
+
 # HolyC Code Syntax
 
 Welcome to HolyC Code Syntax, code HolyC more faster and more simply
