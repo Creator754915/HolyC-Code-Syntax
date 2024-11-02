@@ -8,11 +8,11 @@ How look like the Code Syntax in Visual Studio Code
 
 ### Game.hc
 
-![Image1]([images/image.png](https://github.com/Creator754915/HolyC-Code-Syntax/blob/main/images/image.png))
+![Image1](https://github.com/Creator754915/HolyC-Code-Syntax/blob/main/images/image.png)
 
 ### Main.hc
 
-![Image2]([images/image2.png](https://github.com/Creator754915/HolyC-Code-Syntax/blob/main/images/image2.png))
+![Image2](https://github.com/Creator754915/HolyC-Code-Syntax/blob/main/images/image2.png)
 
 ## Requirements
 
