@@ -1,0 +1,99 @@
+{
+    "Define Macro": {
+        "prefix": "define",
+        "body": [
+            "#define ${1:MACRO_NAME} ${2:value}"
+        ],
+        "description": "Creates a #define macro"
+    },
+    "Include Header": {
+        "prefix": "include",
+        "body": [
+            "#include \"${1:filename}.h\""
+        ],
+        "description": "Inserts an include directive"
+    },
+    "Function Template": {
+        "prefix": "func",
+        "body": [
+            "${1:U0} ${2:functionName}(${3:I8 args}) {",
+            "\t${4:// code here}",
+            "\treturn ${5:0};",
+            "}"
+        ],
+        "description": "Creates a function template with a return statement"
+    },
+    "For Loop": {
+        "prefix": "for",
+        "body": [
+            "for (I64 ${1:i = 0}; $1 < ${2:10}; $1++) {",
+            "\t${3:// code here}",
+            "}"
+        ],
+        "description": "Creates a basic for loop"
+    },
+    "To Upper String": {
+        "scope": "holyc,HolyC",
+        "prefix": "toUpperS",
+        "body": [
+            "public _extern _TOUPPER U8 ToUpper(U8 $1);"
+        ],
+        "description": "String to Upper"
+    },
+    "To Lower String": {
+        "scope": "holyc,HolyC",
+        "prefix": "toLowerS",
+        "body": [
+            "public _extern _TOLOWER U8 ToLower(U8 $1);"
+        ],
+        "description": "String to Lower"
+    },
+    "Is Space String": {
+        "scope": "holyc,HolyC",
+        "prefix": "isSpaceS",
+        "body": [
+            "public _extern _ISSPACE Bool IsSpace(U8 $1);"
+        ],
+        "description": "String to Lower"
+    },
+    "Pow": {
+        "scope": "holyc,HolyC",
+        "prefix": "Mpow",
+        "body": [
+            "public F64 Pow(F64 $1, I64 b);"
+        ],
+        "description": "Math pow"
+    },
+    "Modulo": {
+        "scope": "holyc,HolyC",
+        "prefix": "Mmod",
+        "body": [
+            "public U64 ModU64(U64 *$1, U64 m);"
+        ],
+        "description": "*k modulo of m"
+    },
+    "Sinus": {
+        "scope": "holyc,HolyC",
+        "prefix": "sin",
+        "body": [
+            "public extern 'c' F64 sin(F64 $1);"
+        ],
+        "description": "Sin of a float"
+    },
+    "Cosinus": {
+        "scope": "holyc,HolyC",
+        "prefix": "cos",
+        "body": [
+            "public extern 'c' F64 cos(F64 $1);"
+        ],
+        "description": "Cos of a float"
+    },
+    "Tangant": {
+        "scope": "holyc,HolyC",
+        "prefix": "tan",
+        "body": [
+            "public extern 'c' F64 tan(F64 $1);"
+        ],
+        "description": "tan of a float"
+    }
+}
