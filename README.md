@@ -44,6 +44,12 @@ How look like the Code Syntax in Visual Studio Code
 Just know how to code HolyC ;)
 
 
+## How add the extension ?
+
+Go to **Extension>Install from VSIX** and select the *holyc-code-syntax
+
+And after, enjoy it
+
 ## Release Notes
 
 ### 1.0.1
