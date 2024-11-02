@@ -13,16 +13,20 @@
 			"match": "#define\\b"
 		},
 		{
-			"name": "import.holyc",
-			"match": "#define\\b"
+			"name": "include.holyc",
+			"match": "#include\\b"
 		},
 		{
 			"name": "constant.numeric.holyc",
 			"match": "\\b\\d+(?:\\.\\d+)?\\b"
 		},
 		{
+			"name": "void.function.holyc",
+			"match": "\\bU0\\b"
+		},
+		{
 			"name": "unit.type.u.holyc", 
-			"match": "\\bU(0|8|16|32|64)\\b"
+			"match": "\\bU(8|16|32|64)\\b"
 		},
 		{
 			"name": "unit.type.i.holyc", 
@@ -30,7 +34,7 @@
 		},
 		{
 			"name": "function.type.include.holyc",
-			"match": "\\b(DrawRect|DrawIt|Mailoc)\\b"
+			"match": "\\b(DrawRect|DrawIt|MAlloc)\\b"
 		},
 		{
 			"name": "function.sprite.holyc",
@@ -63,7 +67,7 @@
 		"keywords": {
 			"patterns": [{
 				"name": "keyword.control.holyc",
-				"match": "\\b(class|if|while|for|return|case|break|switch|default)\\b"
+				"match": "\\b(static|public|union|class|if|while|for|return|case|break|switch|default)\\b"
 			}]
 		},
 		"strings": {
