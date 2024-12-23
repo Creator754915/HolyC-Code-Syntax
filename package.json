@@ -3,7 +3,7 @@
   "displayName": "HolyC Code Syntax",
   "description": "Code HolyC more quieckly with a the syntax of the language",
   "icon": "images/HolyC_Logo.png",
-  "version": "1.0.1",
+  "version": "1.5.0",
   "engines": {
     "vscode": "^1.95.0"
   },
@@ -23,7 +23,7 @@
     "languages": [{
       "id": "holyc",
       "aliases": ["HolyC", "holyc"],
-      "extensions": [".hc", "HC", "holyc", ".HolyC"],
+      "extensions": [".hc", "HC", "holyc", ".HolyC", "HOLYC"],
       "configuration": "./language-configuration.json"
     }],
     "grammars": [{
