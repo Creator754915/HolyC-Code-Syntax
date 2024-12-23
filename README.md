@@ -1,7 +1,7 @@
 <p align="center">
   <img src="https://github.com/Creator754915/HolyC-Code-Syntax/blob/main/images/HolyC_Logo.png">
   <br>
-  <img src="https://img.shields.io/badge/Version-1.0.1-green?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Version-1.5.0-green?style=for-the-badge">
   <br>
   <img src="https://img.shields.io/badge/Author-Creator754915-blue?style=flat-square">
   <img src="https://img.shields.io/badge/Open%20Source-Yes-darkgreen?style=flat-square">
@@ -46,7 +46,7 @@ How look like the Code Syntax in Visual Studio Code
 
 ## Snippets customs
 
-**Total snippets: 15**
+**Total snippets: 24**
 
 > Create a simple main project for HolyC
 
@@ -73,24 +73,10 @@ Just know how to code HolyC ;)
 
 ## How add the extension ?
 
-Go to **Extension>Install from VSIX** and select the **holyc-code-syntax-1.0.0** (depend of the version of the extension)
+Go to **Extension>Install from VSIX** and select the **holyc-code-syntax-1.5.0** (depend of the version of the extension)
 
 After, the extension is now in your Visual Studio Code !
 
-
-## Release Notes
-
-### 1.0.1
-
-> New snippets (total 13)
-
-> **#include, union, public, static** add to the syntax
-
-### 1.0.0
-
-> All basic **HolyC** language added
-
----
 
 ## For more information
 
