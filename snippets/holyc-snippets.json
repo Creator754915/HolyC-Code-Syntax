@@ -43,6 +43,103 @@
         ],
         "description": "Creates a basic for loop"
     },
+    "Free Memory": {
+        "scope":"holyc,HolyC",
+        "prefix": "freeMem",
+        "body": [
+            "public _extern _FREE U0 Free(U0 *$1);"
+        ]
+    },
+    "ReAlloc Memory Space": {
+        "scope": "holyc,HolyC",
+        "prefix": "reAlloc",
+        "body": [
+            "public _extern _REALLOC U0 *ReAlloc(U0 *ptr, U64 $1);"
+        ]
+    },
+    "Create a List": {
+        "scope": "holyc,HolyC",
+        "prefix": "newList",
+        "body": [
+            "List *$1 = ListNew();"
+        ]
+    },
+    "Append to List": {
+        "scope":"holyc,HolyC",
+        "prefix": "appendToList",
+        "body": [
+            "U0 ListAppend(List *$1, U0 *$2);"
+        ]
+    },
+    "Pop to List": {
+        "scope": "holyc,HolyC",
+        "prefix": "popList",
+        "body": [
+            "U0 *ListPop(U0 *$1);"
+        ]
+    },
+    "List Lenght": {
+        "scope": "holyc,HolyC",
+        "prefix": "listLenght",
+        "body": "I64 ListCount(List $1);"
+    },
+    "List Empty": {
+        "scope": "holyc,HolyC",
+        "prefix": "isListEmpty",
+        "body": [
+            "Bool ListEmpty(List *$1);"
+        ]
+    },
+    "JSON Ok": {
+        "scope": "holyc,HolyC",
+        "prefix": "jsonOk",
+        "body": [
+            "public Bool JsonOk(Json *$1);"
+        ]
+    },
+    "JSON to String": {
+        "scope": "holyc,HolyC",
+        "prefix": "jsonToString",
+        "body": [
+            "public U8 *JsonToString(Json *$1);"
+        ]
+    },
+    "JSON Select": {
+        "scope": "holyc,HolyC",
+        "prefix": "jsonSelect",
+        "body": [
+            "public Json *JsonSelect(Json *$1, U8 *JSON_ELEMENT, ${3:<some_variable>});"
+        ]
+    },
+    "JSON Parse Example": {
+        "scope": "holyc,HolyC",
+        "prefix": "JsonParseExample",
+        "body": [
+            "U0 Main()",
+            "{",
+            "\tI64 len = 0;",
+            "\tU8 *raw = FileRead(<.example.json>,&len);",
+            "\tJson *json = JsonParse(raw,len);",
+
+            "\tif (!JsonOk(json)) {",
+
+            "\t\tJsonPrintError(json);",
+            "\t\tJsonRelease(json);",
+            "\t\treturn;",
+
+            "\t}",
+
+            "\tJson *id = JsonSelect(json,'<.ids[2]:i>');",
+            "\tif (!id) {",
+
+            "\t\treturn;",
+
+            "\t}",
+            "\tID = %d\n,id->int;",
+            "\tJsonRelease(json);",
+            "}"
+        ]
+    },
     "To Upper String": {
         "scope": "holyc,HolyC",
         "prefix": "toUpperS",
