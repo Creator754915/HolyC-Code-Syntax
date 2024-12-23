@@ -17,9 +17,36 @@ Welcome to HolyC Code Syntax, code HolyC more faster and more simply
 
 How look like the Code Syntax in Visual Studio Code
 
+## Updates
+
+**Version 1.5.0**
+
+> freeMen: Get free space form a pointer **```public _extern _FREE U0 Free(U0 *prt);```**
+
+> reAlloc: Relocate a part of space **```public _extern _REALLOC U0 *ReAlloc(U0 *ptr, U64 new_size);```**
+
+> newList: Create a simple List
+
+> appendToList: Add element to a list
+
+> popList: Delete the last element of a list
+
+> isListEmpty: Check if a list is empty
+
+> listLenght: Count the number of element in a list
+
+> jsonOk: Returns TRUE if the parse was a success
+
+> jsonToString: Convert JSON file to String
+
+> jsonSelect: Allow selection
+
+> JsonParseExample: Create a simple HolyC script for JSON Parse
+
+
 ## Snippets customs
 
-**Total snippets: 13**
+**Total snippets: 15**
 
 > Create a simple main project for HolyC
 
