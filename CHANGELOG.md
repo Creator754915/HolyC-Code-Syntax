@@ -1,9 +1,16 @@
-# Change Log
+# Changelog
 
-All notable changes to the "holyc-code-syntax" extension will be documented in this file.
+All notable changes to this project will be documented in this file.
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
+## [1.5.0] - 2024-12-23
+### Added
+- New snippets, 24 in total
+- New syntax highlighting
 
-## [Unreleased]
+---
 
-- Initial release
+## [1.0.0] - 2024-10-04
+### Added
+- Basic syntax highlighting for the HolyC language.
+- Example files demonstrating syntax highlighting.
+- Setup and usage documentation.
