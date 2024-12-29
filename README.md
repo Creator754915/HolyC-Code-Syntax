@@ -69,26 +69,45 @@ Efficient, prebuilt snippets to speed up your development process.
 
   - **jsonOk**: Validate JSON parsing.
     ```holyc
-
+    public Bool JsonOk(Json *jsonFile);
     ```
 
   - **jsonToString**: Convert JSON to string.
     ```holyc
-
+    public U8 *JsonToString(Json *jsonFile);
     ```
 
   - **jsonSelect**: Enable JSON selection.
     ```holyc
-
+    public Json *JsonSelect(Json *jsonFile, U8 *JSON_ELEMENT, <some_variable>);
     ```
 
   - **JsonParseExample**: Example HolyC script for JSON parsing.
     ```holyc
-
+    U0 Main()
+    {
+      I64 len = 0;
+      U8 *raw = FileRead("./example.json",&len);
+      Json *json = JsonParse(raw,len);
+    
+      if (!JsonOk(json)) {
+        JsonPrintError(json);
+        JsonRelease(json);
+        return;
+      }
+    
+      Json *id = JsonSelect(json,".ids[2]:i");
+      if (!id) {
+        return;
+      }
+      "ID = %d\n",id->int;
+      JsonRelease(json);
+    }
     ```
 
-✂️ Custom Snippets
-Total Snippets: 15
+## ✂️ Custom Snippets
+
+Total Snippets: 24
 Main Project Setup: Quickly scaffold a basic HolyC project.
 
 
