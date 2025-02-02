@@ -123,16 +123,15 @@ Example: Main.hc
 
 📋 Requirements
 Basic knowledge of HolyC is all you need!
+
 🛠️ How to Install
+
 Go to Extensions > Install from VSIX in Visual Studio Code.
 Select the file holyc-code-syntax-1.0.0.vsix (version may vary).
 Enjoy enhanced HolyC syntax highlighting in your editor!
-📝 Release Notes
-1.0.1
-Added #include, union, public, and static to the syntax.
-Introduced new snippets (total: 13).
-1.0.0
-Initial release with all basic HolyC language support.
+
+
 📞 Support
-For questions, suggestions, or issues, visit:
-My GitHub Repository
+For questions, suggestions, or issues, visit: My Github Repository
+
+*By Creator754915*
